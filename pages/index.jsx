@@ -142,11 +142,8 @@ export default function Home() {
       </Head>
       {/* <h1>Hello World</h1> */}
       <h1 className={styles.title}>
-        Welcome to <Link href="/">PokeApi</Link>
+        Welcome to <Link href="/">NextJs</Link>
       </h1>
-      <div>
-        <h1>Checkout our Pokemons</h1>
-      </div>
       <div>
         {/* <h1>{pokemon}</h1> */}
         {/* {pokemon.map(({ name, url }) => {

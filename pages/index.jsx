@@ -106,7 +106,7 @@ export default function Home() {
         <Style.pokeGrid>
           {pokemon.map(({ name, sprites }) => {
             return (
-              <div className="pokeCard">
+              <div className="pokeCard" key={name}>
                 <h1>{name}</h1>
                 <div>
                   <Image
